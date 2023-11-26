@@ -437,12 +437,6 @@ html {
   font-size: 1.2rem;
 }
 
-@media (max-width: 768px) {
-  .logo-card {
-  display: none;
-  }
-}
-
 :root {
   --glitter: url(images/background\ silver\ glitter.webp);
 }
@@ -615,7 +609,7 @@ html {
   margin-left: 40%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .carousel-testimonial {
   display: none;
   }
@@ -913,109 +907,7 @@ html {
 
 /*/////////////////////////////////////////////TABLET TARGET///////////**/
 
-@media only screen and (max-width: 768px) {
 
-  #hero {
-    background-image: linear-gradient(to right, #03001cb6, #03001C20 100%), url(images/background\ header\ mobile.jpg);
-    height: 80vh;
-}
-
-.container-contact-index {
-  left: 0;
-  top: 0;
-}
-
-.hero-name-header {
-	font-size: 3.5rem;
-  padding-left: 1%;
-  margin-top: 0;
-  width: 55%;
-}
-
-.hero-text-header {
-  font-size: 1rem;
-  margin-left: 20%;
-  margin-right: 1%;
-  margin-top: 2%;
-}
-
-.contact-link-whatsapp-index {
-  margin-right: 1%;
-}
-
-.svg-icon-header {
-  margin-top: 30%;
-  width: 100%;
-}
-
-.webgirl-hero {
-	font-size: 5rem;
-  height: 450px;
-  margin-top: 8%;
-  padding-left: 0%;
-}
-
-.wiredtocreate-hero {
-	font-size: 1.5rem;
-  height: 65px;
-  margin-top: -8%;
-  padding-left: 8%;
-}
-
-  .introduction-container {
-    width: 100%;
-}
-
-.introduction-container-2 {
-  width: 100%;
-}
-
-.introduction-container-3 {
-  padding-left: 2%;
-  padding-right: 2%;
-}
-
-.quote-text {
-  font-size: 1.4rem;
-}
-
-.introduction-picture {
-  width: 100%;
-}
-
-.introduction-image {
-  margin-bottom: 5%;
-  width: 100%;
-}
-
-.introduction-name-container {
-  margin-bottom: 5%;
-  margin-top: 8%;
-  text-align: center;
-}
-
-.introduction-text-janene {
-  font-size: 1.6rem;
-}
-
-.span-bold {
-  font-size: 1.2rem;
-}
-
-.span-web-girl-introduction {
-  font-size: 2rem;
-}
-
-.introduction-lead {
-    font-size: 1.2rem;
-    margin-bottom: 10%;
-}
-
-.container-services {
-  padding-top: 0%;
-}
-
-}
 
 /*/////////////////////////////////////////////MOBILE TARGET///////////**/
 
@@ -1078,7 +970,7 @@ html {
 
 /*///////////////////////////////////////////////////////////////////*/
 
-@media only screen and (min-width: 451px) and (max-width: 475px) {
+@media only screen and (max-width: 425px) {
 
   #hero {
     background-image: linear-gradient(to right, #03001cb6, #03001C20 100%), url(images/background\ header\ mobile.jpg);
@@ -1091,7 +983,7 @@ html {
 }
 
 .hero-name-header {
-	font-size: 2.8rem;
+	font-size: 2.5rem;
   padding-left: 1%;
   margin-top: 0;
   width: 55%;
@@ -1099,722 +991,200 @@ html {
 
 .hero-text-header {
   font-size: 0.8rem;
+  margin-left: 6%;
+  margin-right: 0;
+  margin-top: 7%;
+}
+
+.contact-link-whatsapp-index {
+  margin-right: 0;
+}
+
+.svg-icon-header {
+  margin-top: 35%;
+  width: 75%;
+}
+
+.webgirl-hero {
+	font-size: 3.8rem;
+  height: 425px;
+  margin-top: 8%;
+  padding-left: 0%;
+}
+
+.wiredtocreate-hero {
+	font-size: 1.2rem;
+  height: 65px;
+  margin-top: -10%;
+  padding-left: 10%;
+}
+
+.quote-text-span {
+  font-size: 2.2rem;
+}
+
+.introduction-text-hello {
+	font-size: 6rem;
+  height: 190px;
+  padding-left: 17%;
+}
+
+.link-to-testimonials {
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+  margin-left: 5%;
+  padding: 3% 3%;
+  width: 90%;
+}
+
+.marquee-wrapper {
+  height: 160px;
+}
+
+.marquee-text-top {
+  font-size: 4.5rem;
+  width: 300%;
+}
+
+.marquee-text-bottom {
+  font-size: 4.5rem;
+  margin-top: 15%;
+  width: 300%;
+}
+
+.heading-services {
+	font-size: 3.2rem;
+  padding-left: 22%;
+}
+
+.carousel-services {
+  margin: auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  width: 90%;
+}
+
+.carousel-control-prev-icon {
+  margin-bottom: -700%;
+}
+
+.carousel-control-next-icon {
+  margin-bottom: -700%;
+}
+
+.card-services:before {
+  border-radius: 20px;
+}
+
+.card-services {
+  height: 500px;
+  padding: 5% 2%;
+}
+
+.container-testimonials {
+  padding-bottom: 100%;
+  width: 100%;
+}
+
+.heading-testimonial-1 {
+	font-size: 3.2rem;
+  height: 170px;
+  padding-left: 22%;
+  width: 100%;
+}
+
+.heading-testimonial-2 {
+	font-size: 3.2rem;
+  height: 110px;
+  margin-top: -15%;
+  padding-left: 35%;
+  width: 100%;
+}
+
+.heading-testimonial-3 {
+	font-size: 3.2rem;
+  height: 200px;
+  margin-top: -22%;
+  padding-left: 12%;
+  width: 100%;
+}
+
+.carousel-testimonial {
+  margin: auto;
+  margin-bottom: 40%;
+  margin-top: 10%;
+  width: 90%;
+}
+
+.carousel-control-prev-icon-testimonial {
+  margin-bottom: -1100%;
+}
+
+.carousel-control-next-icon-testimonial {
+  margin-bottom: -1100%;
+}
+
+.svg-testimonial {
+  font-size: 3.1rem;
+  margin-right: 50%;
+  transform: rotate(180deg);
+  margin-top: -21%;
+  width: 38%;
+}
+
+.svg-testimonial-2 {
+  font-size: 4rem;
+  margin-right: 50%;
+  transform: rotate(90deg);
+}
+
+.chat-bubble {
+  background-image: url(images/background\ chat\ bubble\ mobile.jpg);
+  height: 350px;
+}
+
+.writer-testimonials {
+  margin-left: 20%;
+  margin-top: 15%;
+}
+
+.writer-testimonials-position {
+  margin-left: 6%;
+}
+
+#contact {
+  background-image: url(images/background\ contact\ mobile.jpg);
+}
+
+.container-contact-content {
+  background-color: #03001c80;
+  backdrop-filter: blur(6px);
+  height: 30vh;
   margin-left: 10%;
-  margin-right: 0;
-  margin-top: 6%;
+  margin-top: 10%;
+  width: 80vw;
 }
 
-.contact-link-whatsapp-index {
-  margin-right: 0;
-}
-
-.svg-icon-header {
-  margin-top: 35%;
-  width: 80%;
-}
-
-.webgirl-hero {
-	font-size: 3.8rem;
-  height: 425px;
-  margin-top: 8%;
-  padding-left: 0%;
-}
-
-.wiredtocreate-hero {
-	font-size: 1.2rem;
-  height: 65px;
-  margin-top: -10%;
-  padding-left: 10%;
-}
-
-.quote-text-span {
-  font-size: 2.2rem;
-}
-
-.introduction-text-hello {
-	font-size: 6rem;
-  height: 190px;
-  padding-left: 20%;
-}
-
-.link-to-testimonials {
-  font-size: 0.9rem;
-  letter-spacing: 3px;
-  margin-left: 5%;
-  padding: 3% 3%;
-  width: 90%;
-}
-
-.marquee-wrapper {
-  height: 160px;
-}
-
-.marquee-text-top {
-  font-size: 4.5rem;
-  width: 300%;
-}
-
-.marquee-text-bottom {
-  font-size: 4.5rem;
-  margin-top: 15%;
-  width: 300%;
-}
-
-.heading-services {
-	font-size: 3.2rem;
-  padding-left: 25%;
-}
-
-.carousel-services {
-  margin: auto;
+.h3-contact {
   margin-bottom: 10%;
-  margin-top: 10%;
-  width: 90%;
-}
-
-.carousel-control-prev-icon {
-  margin-bottom: -600%;
-}
-
-.carousel-control-next-icon {
-  margin-bottom: -600%;
-}
-
-.card-services:before {
-  border-radius: 20px;
-}
-
-.card-services {
-  height: 460px;
-  padding: 5% 2%;
-}
-
-.container-testimonials {
-  padding-bottom: 80%;
-  width: 100%;
-}
-
-.heading-testimonial-1 {
-	font-size: 3.2rem;
-  height: 170px;
-  padding-left: 25%;
-  width: 100%;
-}
-
-.heading-testimonial-2 {
-	font-size: 3.2rem;
-  height: 110px;
-  margin-top: -12%;
-  padding-left: 35%;
-  width: 100%;
-}
-
-.heading-testimonial-3 {
-	font-size: 3.2rem;
-  height: 200px;
-  margin-top: -18%;
-  padding-left: 15%;
-  width: 100%;
-}
-
-.carousel-testimonial {
-  margin: auto;
-  margin-bottom: 40%;
-  margin-top: 10%;
-  width: 90%;
-}
-
-.carousel-control-prev-icon-testimonial {
-  margin-bottom: -1100%;
-}
-
-.carousel-control-next-icon-testimonial {
-  margin-bottom: -1100%;
-}
-
-.svg-testimonial {
-  font-size: 3.1rem;
-  margin-right: 50%;
-  transform: rotate(180deg);
-  margin-top: -21%;
-  width: 38%;
-}
-
-.svg-testimonial-2 {
-  font-size: 4rem;
-  margin-right: 50%;
-  transform: rotate(90deg);
-}
-
-.chat-bubble {
-  background-image: url(images/background\ chat\ bubble\ mobile.jpg);
-  height: 350px;
-}
-
-.writer-testimonials {
-  margin-left: 20%;
-  margin-top: 15%;
-}
-
-.writer-testimonials-position {
-  margin-left: 6%;
-}
-
-}
-
-@media only screen and (min-width: 426px) and (max-width: 450px) {
-
-  #hero {
-    background-image: linear-gradient(to right, #03001cb6, #03001C20 100%), url(images/background\ header\ mobile.jpg);
-    height: 70vh;
-}
-
-.container-contact-index {
-  left: 0;
-  top: 0;
-}
-
-.hero-name-header {
-	font-size: 2.8rem;
-  padding-left: 1%;
-  margin-top: 0;
-  width: 55%;
-}
-
-.hero-text-header {
-  font-size: 0.8rem;
-  margin-left: 8%;
-  margin-right: 0;
-  margin-top: 6%;
-}
-
-.contact-link-whatsapp-index {
-  margin-right: 0;
-}
-
-.svg-icon-header {
-  margin-top: 35%;
-  width: 80%;
-}
-
-.webgirl-hero {
-	font-size: 3.8rem;
-  height: 425px;
   margin-top: 8%;
-  padding-left: 0%;
 }
 
-.wiredtocreate-hero {
-	font-size: 1.2rem;
-  height: 65px;
-  margin-top: -10%;
-  padding-left: 10%;
+.h1-contact {
+  margin-bottom: 5%;
 }
 
-.quote-text-span {
-  font-size: 2.2rem;
+.text-footer {
+  margin-top: 65%;
 }
 
-.introduction-text-hello {
-	font-size: 6rem;
-  height: 190px;
-  padding-left: 20%;
+.contact-link-email-contact {
+  margin-left: 21%;
 }
 
-.link-to-testimonials {
-  font-size: 0.9rem;
-  letter-spacing: 3px;
-  margin-left: 5%;
-  padding: 3% 3%;
-  width: 90%;
 }
 
-.marquee-wrapper {
-  height: 160px;
-}
-
-.marquee-text-top {
-  font-size: 4.5rem;
-  width: 300%;
-}
-
-.marquee-text-bottom {
-  font-size: 4.5rem;
-  margin-top: 15%;
-  width: 300%;
-}
-
-.heading-services {
-	font-size: 3.2rem;
-  padding-left: 22%;
-}
-
-.carousel-services {
-  margin: auto;
-  margin-bottom: 10%;
-  margin-top: 10%;
-  width: 90%;
-}
-
-.carousel-control-prev-icon {
-  margin-bottom: -700%;
-}
-
-.carousel-control-next-icon {
-  margin-bottom: -700%;
-}
-
-.card-services:before {
-  border-radius: 20px;
-}
-
-.card-services {
-  height: 500px;
-  padding: 5% 2%;
-}
-
-.container-testimonials {
-  padding-bottom: 100%;
-  width: 100%;
-}
-
-.heading-testimonial-1 {
-	font-size: 3.2rem;
-  height: 170px;
-  padding-left: 22%;
-  width: 100%;
-}
-
-.heading-testimonial-2 {
-	font-size: 3.2rem;
-  height: 110px;
-  margin-top: -15%;
-  padding-left: 35%;
-  width: 100%;
-}
-
-.heading-testimonial-3 {
-	font-size: 3.2rem;
-  height: 200px;
-  margin-top: -22%;
-  padding-left: 12%;
-  width: 100%;
-}
-
-.carousel-testimonial {
-  margin: auto;
-  margin-bottom: 40%;
-  margin-top: 10%;
-  width: 90%;
-}
-
-.carousel-control-prev-icon-testimonial {
-  margin-bottom: -1200%;
-}
-
-.carousel-control-next-icon-testimonial {
-  margin-bottom: -1200%;
-}
-
-.svg-testimonial {
-  font-size: 3.1rem;
-  margin-right: 50%;
-  transform: rotate(180deg);
-  margin-top: -21%;
-  width: 38%;
-}
-
-.svg-testimonial-2 {
-  font-size: 4rem;
-  margin-right: 50%;
-  transform: rotate(90deg);
-}
-
-.chat-bubble {
-  background-image: url(images/background\ chat\ bubble\ mobile.jpg);
-  height: 350px;
-}
-
-.writer-testimonials {
-  margin-left: 20%;
-  margin-top: 15%;
-}
-
-.writer-testimonials-position {
-  margin-left: 6%;
-}
-
-}
-
-@media only screen and (min-width: 401px) and (max-width: 425px) {
-
-  #hero {
-    background-image: linear-gradient(to right, #03001cb6, #03001C20 100%), url(images/background\ header\ mobile.jpg);
-    height: 70vh;
-}
-
-.container-contact-index {
-  left: 0;
-  top: 0;
-}
-
-.hero-name-header {
-	font-size: 2.5rem;
-  padding-left: 1%;
-  margin-top: 0;
-  width: 55%;
-}
-
-.hero-text-header {
-  font-size: 0.8rem;
-  margin-left: 6%;
-  margin-right: 0;
-  margin-top: 7%;
-}
-
-.contact-link-whatsapp-index {
-  margin-right: 0;
-}
-
-.svg-icon-header {
-  margin-top: 35%;
-  width: 75%;
-}
-
-.webgirl-hero {
-	font-size: 3.8rem;
-  height: 425px;
-  margin-top: 8%;
-  padding-left: 0%;
-}
-
-.wiredtocreate-hero {
-	font-size: 1.2rem;
-  height: 65px;
-  margin-top: -10%;
-  padding-left: 10%;
-}
-
-.quote-text-span {
-  font-size: 2.2rem;
-}
-
-.introduction-text-hello {
-	font-size: 6rem;
-  height: 190px;
-  padding-left: 17%;
-}
-
-.link-to-testimonials {
-  font-size: 0.9rem;
-  letter-spacing: 3px;
-  margin-left: 5%;
-  padding: 3% 3%;
-  width: 90%;
-}
-
-.marquee-wrapper {
-  height: 160px;
-}
-
-.marquee-text-top {
-  font-size: 4.5rem;
-  width: 300%;
-}
-
-.marquee-text-bottom {
-  font-size: 4.5rem;
-  margin-top: 15%;
-  width: 300%;
-}
-
-.heading-services {
-	font-size: 3.2rem;
-  padding-left: 22%;
-}
-
-.carousel-services {
-  margin: auto;
-  margin-bottom: 10%;
-  margin-top: 10%;
-  width: 90%;
-}
-
-.carousel-control-prev-icon {
-  margin-bottom: -700%;
-}
-
-.carousel-control-next-icon {
-  margin-bottom: -700%;
-}
-
-.card-services:before {
-  border-radius: 20px;
-}
-
-.card-services {
-  height: 500px;
-  padding: 5% 2%;
-}
-
-.container-testimonials {
-  padding-bottom: 100%;
-  width: 100%;
-}
-
-.heading-testimonial-1 {
-	font-size: 3.2rem;
-  height: 170px;
-  padding-left: 22%;
-  width: 100%;
-}
-
-.heading-testimonial-2 {
-	font-size: 3.2rem;
-  height: 110px;
-  margin-top: -15%;
-  padding-left: 35%;
-  width: 100%;
-}
-
-.heading-testimonial-3 {
-	font-size: 3.2rem;
-  height: 200px;
-  margin-top: -22%;
-  padding-left: 12%;
-  width: 100%;
-}
-
-.carousel-testimonial {
-  margin: auto;
-  margin-bottom: 40%;
-  margin-top: 10%;
-  width: 90%;
-}
-
-.carousel-control-prev-icon-testimonial {
-  margin-bottom: -1200%;
-}
-
-.carousel-control-next-icon-testimonial {
-  margin-bottom: -1200%;
-}
-
-.svg-testimonial {
-  font-size: 3.1rem;
-  margin-right: 50%;
-  transform: rotate(180deg);
-  margin-top: -21%;
-  width: 38%;
-}
-
-.svg-testimonial-2 {
-  font-size: 4rem;
-  margin-right: 50%;
-  transform: rotate(90deg);
-}
-
-.chat-bubble {
-  background-image: url(images/background\ chat\ bubble\ mobile.jpg);
-  height: 350px;
-}
-
-.writer-testimonials {
-  margin-left: 20%;
-  margin-top: 15%;
-}
-
-.writer-testimonials-position {
-  margin-left: 6%;
-}
-
-}
-
-@media only screen and (min-width: 375px) and (max-width: 400px) {
-
-  #hero {
-    background-image: linear-gradient(to right, #03001cb6, #03001C20 100%), url(images/background\ header\ mobile.jpg);
-    height: 70vh;
-}
-
-.container-contact-index {
-  left: 0;
-  top: 0;
-}
-
-.hero-name-header {
-	font-size: 2.5rem;
-  padding-left: 1%;
-  margin-top: 0;
-  width: 55%;
-}
-
-.hero-text-header {
-  font-size: 0.8rem;
-  margin-left: 3%;
-  margin-right: 0;
-  margin-top: 7%;
-}
-
-.contact-link-whatsapp-index {
-  margin-right: 0;
-}
-
-.svg-icon-header {
-  margin-top: 35%;
-  width: 75%;
-}
-
-.webgirl-hero {
-	font-size: 3.8rem;
-  height: 425px;
-  margin-top: 8%;
-  padding-left: 0%;
-}
-
-.wiredtocreate-hero {
-	font-size: 1.2rem;
-  height: 65px;
-  margin-top: -10%;
-  padding-left: 10%;
-}
-
-.quote-text-span {
-  font-size: 2.2rem;
-}
-
-.introduction-text-hello {
-	font-size: 6rem;
-  height: 190px;
-  padding-left: 17%;
-}
-
-.link-to-testimonials {
-  font-size: 0.9rem;
-  letter-spacing: 3px;
-  margin-left: 5%;
-  padding: 3% 3%;
-  width: 90%;
-}
-
-.marquee-wrapper {
-  height: 160px;
-}
-
-.marquee-text-top {
-  font-size: 4.5rem;
-  width: 300%;
-}
-
-.marquee-text-bottom {
-  font-size: 4.5rem;
-  margin-top: 18%;
-  width: 300%;
-}
-
-.heading-services {
-	font-size: 3.2rem;
-  padding-left: 20%;
-}
-
-.carousel-services {
-  margin: auto;
-  margin-bottom: 10%;
-  margin-top: 10%;
-  width: 90%;
-}
-
-.carousel-control-prev-icon {
-  margin-bottom: -800%;
-}
-
-.carousel-control-next-icon {
-  margin-bottom: -800%;
-}
-
-.card-services:before {
-  border-radius: 20px;
-}
-
-.card-services {
-  height: 520px;
-  padding: 5% 2%;
-}
-
-.container-testimonials {
-  padding-bottom: 100%;
-  width: 100%;
-}
-
-.heading-testimonial-1 {
-	font-size: 3.2rem;
-  height: 170px;
-  padding-left: 18%;
-  width: 100%;
-}
-
-.heading-testimonial-2 {
-	font-size: 3.2rem;
-  height: 110px;
-  margin-top: -15%;
-  padding-left: 30%;
-  width: 100%;
-}
-
-.heading-testimonial-3 {
-	font-size: 3.2rem;
-  height: 200px;
-  margin-top: -22%;
-  padding-left: 8%;
-  width: 100%;
-}
-
-.carousel-testimonial {
-  margin: auto;
-  margin-bottom: 40%;
-  margin-top: 10%;
-  width: 90%;
-}
-
-.carousel-control-prev-icon-testimonial {
-  margin-bottom: -1300%;
-}
-
-.carousel-control-next-icon-testimonial {
-  margin-bottom: -1300%;
-}
-
-.svg-testimonial {
-  font-size: 3.1rem;
-  margin-right: 50%;
-  transform: rotate(180deg);
-  margin-top: -21%;
-  width: 38%;
-}
-
-.svg-testimonial-2 {
-  font-size: 4rem;
-  margin-right: 50%;
-  transform: rotate(90deg);
-}
-
-.chat-bubble {
-  background-image: url(images/background\ chat\ bubble\ mobile.jpg);
-  height: 350px;
-}
-
-.writer-testimonials {
-  margin-left: 20%;
-  margin-top: 15%;
-}
-
-.writer-testimonials-position {
-  margin-left: 6%;
-}
-
-}
-
-@media only screen and (min-width: 350px) and (max-width: 374px) {
+@media only screen and (max-width: 375px) {
 
   #hero {
     background-image: linear-gradient(to right, #03001cb6, #03001C20 100%), url(images/background\ header\ mobile.jpg);
@@ -1850,17 +1220,17 @@ html {
 }
 
 .webgirl-hero {
-	font-size: 3.2rem;
+	font-size: 3.8rem;
   height: 425px;
-  margin-top: 5%;
+  margin-top: 15%;
   padding-left: 0%;
 }
 
 .wiredtocreate-hero {
-	font-size: 1rem;
+	font-size: 1.2rem;
   height: 65px;
-  margin-top: -15%;
-  padding-left: 10%;
+  margin-top: -10%;
+  padding-left: 11%;
 }
 
 .quote-text-span {
@@ -1902,7 +1272,7 @@ html {
 
 .heading-services {
 	font-size: 3.2rem;
-  padding-left: 16%;
+  padding-left: 20%;
 }
 
 .carousel-services {
@@ -1965,11 +1335,11 @@ html {
 }
 
 .carousel-control-prev-icon-testimonial {
-  margin-bottom: -1400%;
+  margin-bottom: -1300%;
 }
 
 .carousel-control-next-icon-testimonial {
-  margin-bottom: -1400%;
+  margin-bottom: -1300%;
 }
 
 .svg-testimonial {
@@ -2000,9 +1370,32 @@ html {
   margin-left: 5%;
 }
 
+.container-contact-content {
+  height: 25vh;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 349px) {
+.h3-contact {
+  font-size: 1.8rem;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.h1-contact {
+  font-size: 2.2rem;
+  margin-bottom: 5%;
+}
+
+.text-footer {
+  margin-top: 85%;
+}
+
+.contact-link-email-contact {
+  margin-left: 18%;
+}
+
+}
+
+@media only screen and (max-width: 320px) {
 
   #hero {
     background-image: linear-gradient(to right, #03001cb6, #03001C20 100%), url(images/background\ header\ mobile.jpg);
@@ -2186,6 +1579,29 @@ html {
 
 .writer-testimonials-position {
   margin-left: 5%;
+}
+
+.container-contact-content {
+  height: 25vh;
+}
+
+.h3-contact {
+  font-size: 1.6rem;
+  margin-bottom: 10%;
+  margin-top: 8%;
+}
+
+.h1-contact {
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+
+.text-footer {
+  margin-top: 100%;
+}
+
+.contact-link-email-contact {
+  margin-left: 13%;
 }
 
 }
